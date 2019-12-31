@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.navigationdrawer.ui.appointment.AppointmentFragment"
+        android:label="@string/menu_appointment"
+        tools:layout="@layout/fragment_appointment" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.navigationdrawer.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_authentication"
+        android:name="com.example.navigationdrawer.ui.authentication.AuthenticationFragment"
+        android:label="@string/menu_authentication"
+        tools:layout="@layout/activity_register" />
+
+    <!--<fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.navigationdrawer.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />-->
+
+    <fragment
+    android:id="@+id/nav_commission_calculator"
+    android:name="com.example.navigationdrawer.ui.commission_calculator.Commission_CalculatorFragment"
+    android:label="@string/menu_commission_calculator"
+    tools:layout="@layout/fragment_commission_calculator" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.navigationdrawer.ui.schedule.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+
+</navigation>

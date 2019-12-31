@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#646464"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_number"
+        android:textColor="#FFFFFF"
+        android:text="No : "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_name"
+        android:textColor="#FFFFFF"
+        android:text="Name : "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_contact"
+            android:textColor="#FFFFFF"
+            android:text="Contact : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_time"
+            android:textColor="#FFFFFF"
+            android:text="Slot time : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_location"
+            android:textColor="#FFFFFF"
+            android:autoLink="all"
+            android:text="Location : "
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_remark"
+            android:textColor="#FFFFFF"
+            android:text="Remark : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_worker"
+            android:textColor="#FFFFFF"
+            android:text="Worker in-charge : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_services"
+            android:textColor="#FFFFFF"
+            android:text="Services : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+        android:id="@+id/text_date_time"
+        android:textColor="#FFFFFF"
+        android:text="\nBooking date/time : "
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_status"
+            android:textColor="#FFFFFF"
+            android:text="Status : "
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

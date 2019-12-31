@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">KSC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Log Out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_appointment">Appointment</string>
+    <string name="menu_history">History</string>
+    <string name="menu_authentication">Authentication</string>
+    <!--<string name="menu_login">Home</string>-->
+    <string name="menu_commission_calculator">Commission Calculator</string>
+    <string name="menu_schedule">Schedule</string>
+
+
+    <string-array name="service_location_arrays">
+        <item>In-Workshop Service</item>
+        <item>On-Location Service</item>
+
+    </string-array>
+
+    <string-array name="worker_arrays">
+        <item>Johnson Ooi</item>
+        <item>Ali</item>
+        <item>Darren Lim</item>
+        <item>Faiz</item>
+
+    </string-array>
+
+    <string-array name="status_arrays">
+        <item>Pending</item>
+        <item>Accepted</item>
+        <item>Cancelled</item>
+        <item>Completed</item>
+    </string-array>
+
+        <string name="c1">Diagnostic and Troubleshoot</string>
+        <string name="c2">Maintenance Service</string>
+        <string name="c3">Breaking System</string>
+        <string name="c4">Suspension System</string>
+
+    <string name="map_key" translatable="false">AIzaSyBgRg-UprjwYFnCrQ76hF4Do16C94_KySg</string>
+
+</resources>
